@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="shortcut icon" href="icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/619c65cd3e.js" crossorigin="anonymous"></script>
+</head>
+<body class=" bg-thirdly flex flex-col text-color  transition-colors duration-150">
+    <header class="sticky top-0 bg-primary py-3 px-5 flex flex-row shadow-lg justify-between items-center" >
+        <h1 class=" text-white text-4xl font-bold ">
+            Portfolio
+        </h1>
+        <div class="flex justify-center flex-row gap-5">
+            <a href="#Projects" class="text-white font-bold text-xl hover:text-yellow-200 duration-300">Projects</a>
+            <a href="#Contact" class="text-white font-bold text-xl hover:text-yellow-200 duration-300">Contact</a>
+            <button class="bg-primary group relative ml-10" id="drakmode_button">
+                <i class="transition-opacity duration-300 fa-solid fa-moon text-white text-4xl opacity-100 group-hover:opacity-0 right-0 bottom-0 translate-y-1 absolute"></i>
+                <i class="transition-opacity duration-300 fa-regular fa-moon text-white text-4xl opacity-0 group-hover:opacity-100 right-0 bottom-0 translate-y-1 absolute"></i>
+            </button>
+        </div>
+    </header>
+    <div class="flex flex-row -z-50 mt-14 lg:mx-32">
+        <img src="images/profikle_photo.jpg" alt="" class="bg-primary aspect-square h-80 hidden sm:block object-cover object-center ">
+        <div class="bg-primary secondry p-10 w-fit">
+            <h1 class="text-2xl xl:text-4xl font-bold text-white">Hi,I'm Mahmoud Benyoucef</h1>
+            <p class="xl:mt-10 text-lg xl:text-2xl h-30">
+                Currently I am a student in computer sciences in software specialty 
+                and this is my third year. I have some experience in 
+                <strong class="text-yellow-200" id="auto_show">web-devolpment|</strong> 
+            </p>
+        </div>
+    </div>
+    <h1 id="Projects" class="mx-auto primary text-6xl font-bold mt-10 mb-20 sm:mb-5">Projects</h1>
+    <div class="flex flex-col lg:mx-32 gap-5" id="projscts_handler">
+        <template id="project_template">
+            <div class="flex flex-col sm:flex-row px-5 gap-5">
+                <div class="flex flex-col w-full py-5">
+                    <h2 class="mb-5 text-3xl font-bold text-color title"></h2>
+                    <p class="h-full desc"></p>
+                    <div class="flex sm:flex-col flex-row md:flex-row justify-between items-center mb-2">
+                        <p>Link : <a href="" class="link not-visited:text-blue-400 visited:text-violet-500 underline">GitHub</a></p>
+                        <div class="flex-row flex mr-5 gap-1 items-center tags">
+                            <p>Tags : </p>
+                        </div>
+                    </div>
+                </div>
+                <img src="" alt="" class="rounded-2xl bg-primary  h-72 object-cover object-center images">
+            </div>
+        </template>
+        <template id="tag_template">
+            <p class="bg-primary p-1 text-xs rounded-md text-white font-bold">HTML</p>
+        </template>
+    </div>
+
+    <div class="flex flex-col justify-center w-full mt-20">
+        <h4 id="Contact" class="text-4xl font-extrabold primary text-center">Contact Me</h4>
+        <div class="flex flex-row gap-2 justify-center mt-16">
+            <a class="font-semibold text-lg hover:text-orange-600" target="_blank" href="mailto:inkwolf42@gmail.com">inkwolf42@gmail.com</a> || 
+            <a class="font-semibold text-lg hover:text-orange-600" target="_blank" href="https://www.linkedin.com/in/benyoucef-mahmoud-97a514392/">LinkedIn</a> || 
+            <a class="font-semibold text-lg hover:text-orange-600" target="_blank" href="https://github.com/inkwolf42">GitHub</a> 
+        </div>
+    </div>
+
+    <footer class="w-full bg-primary text-center text-white mt-30 py-2 font-light">Made by Mahmoud Benyoucef © 2025</footer>
+
+    <script src="scripts/Darkmode.js"></script>
+    <script src="scripts/auto_show.js"></script>
+    <script src="scripts/Projects.js"></script>
+</body>
+</html>

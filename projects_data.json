@@ -1,0 +1,19 @@
+[
+  {
+    "title":"Inventory Management System",
+    "desc":"This is a university Project for a small business to manage Invintory you can add products and buy or sell them. The Project Was build with SceneBuilder and JavaFX and used the SqlLite for the database. there are two roles in this project the admin and the employe where the admin can see the history of all employes while the employe can see thier own.",
+    "tags":["Java FX","SQLlite"],
+    "link":{
+      "text":"GitHub",
+      "href":"https://github.com/inkwolf42/InventoryManagement"
+    },
+    "images":[
+      "invintory_managment_1.png",
+      "invintory_managment_2.png",
+      "invintory_managment_3.png",
+      "invintory_managment_4.png",
+      "invintory_managment_5.png",
+      "invintory_managment_6.png"
+    ]
+  }
+]
