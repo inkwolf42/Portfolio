@@ -1,16 +1,12 @@
-
 # Project
-
-this is a Portfolio I will use to describe my self and it will showcase my project(still add more projects) and the links to contact me.
+This is a portfolio I will use to describe myself.  
+It will showcase my projects (still adding more) and the links to contact me.
 
 # About Me
+I'm currently a university student in Computer Science, Software Development specialty.
 
-I'm currntly a student in university in Computer Science, Software Development Speciality.
-
-# What I can offer
-
-I can make small business projects in low price
+# What I Can Offer
+I can make small business projects at a low price.
 
 # My Goal
-
-my goal is to get more experience while getting some bucks
+My goal is to get more experience while earning some money.
