@@ -15,8 +15,11 @@
   "dependencies": {
     "@lottiefiles/dotlottie-react": "^0.19.12",
     "@tailwindcss/postcss": "^4.3.3",
+    "i18next": "^26.3.6",
     "react": "^19.2.7",
-    "react-dom": "^19.2.7"
+    "react-dom": "^19.2.7",
+    "react-i18next": "^17.0.11",
+    "react-router-dom": "^7.18.2"
   },
   "devDependencies": {
     "@types/react": "^19.2.17",

@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Quiz Web App",
+        "desc": "This is a college project where users can take a quiz in multiple categories which they can choose, while the admin has a Dashboard to manage the quizzes, categories, and user histories.",
+        "tags": ["Laravel", "React", "PostgreSQL"],
+        "github_link": "https://github.com/inkwolf42/QuizWebApp",
+        "image_path": "Quiz.png"
+    },
+    {
+        "name": "Web Text Editor",
+        "desc": "This is a personal project where users can log in with a Google account or a regular email, access their text files and folders, and edit them on the website where they can also download them.",
+        "tags": ["Laravel", "React", "PostgreSQL"],
+        "github_link": "https://github.com/inkwolf42/Web-Text-Editor",
+        "image_path": "WebTextEditor.png"
+    },
+    {
+        "name": "Pokemon App",
+        "desc": "This is a mobile app built with Flutter. It displays Pokemon data fetched from the PokeAPI using GraphQL.",
+        "tags": ["Flutter", "GraphQL"],
+        "github_link": "https://github.com/inkwolf42/PokemonApp",
+        "image_path": "PokemonApp.jpg"
+    }
+]

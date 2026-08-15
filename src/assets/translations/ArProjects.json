@@ -1,0 +1,23 @@
+[
+    {
+        "name": "تطبيق الاختبارات",
+        "desc": "هذا مشروع جامعي، يمكن للمستخدمين فيه إجراء اختبارات في فئات متعددة يختارونها، بينما يملك المسؤول لوحة تحكم لإدارة الاختبارات والفئات وسجلات المستخدمين.",
+        "tags": ["Laravel", "React", "PostgreSQL"],
+        "github_link": "https://github.com/inkwolf42/QuizWebApp",
+        "image_path": "Quiz.png"
+    },
+    {
+        "name": "محرر النصوص عبر الإنترنت",
+        "desc": "هذا مشروع شخصي، يمكن للمستخدمين تسجيل الدخول بحساب Google أو بريد إلكتروني عادي، والوصول إلى ملفاتهم النصية ومجلداتهم وتعديلها عبر الموقع مع إمكانية تنزيلها.",
+        "tags": ["Laravel", "React", "PostgreSQL"],
+        "github_link": "https://github.com/inkwolf42/Web-Text-Editor",
+        "image_path": "WebTextEditor.png"
+    },
+    {
+        "name": "تطبيق بوكيمون",
+        "desc": "هذا تطبيق جوال مبني بـ Flutter، يعرض بيانات بوكيمون يتم جلبها من PokeAPI باستخدام GraphQL.",
+        "tags": ["Flutter", "GraphQL"],
+        "github_link": "https://github.com/inkwolf42/PokemonApp",
+        "image_path": "PokemonApp.jpg"
+    }
+]

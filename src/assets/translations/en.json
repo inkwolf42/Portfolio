@@ -1,0 +1,18 @@
+{
+    "about": "About",
+    "projects": "Projects",
+    "contact": "Contact",
+    "number_of_projects": "Number of Projects",
+    "exp": "I have experience in",
+    "age": "My Age Is",
+    "about_description": "Hi and welcome to my portfolio page. My name is Mahmoud Benyoucef and I am an engineer in software development. I am currently a student in my 4th year at Farhat Abbas University, but I have experience that makes me confident I can help you build the software you desire at a reasonable price.",
+    "contact_email": "Send me an Email",
+    "contact_phone": "Call me",
+    "contact_telegram": "My Telegram",
+    "contact_github": "Check out my GitHub",
+    "contact_linkedin": "Visit my LinkedIn",
+    "contact_facebook": "Here is my Facebook",
+    "contact_instagram": "And here is my Instagram",
+    "open_in_github":"open in github",
+    "tags":"Tags :"
+}

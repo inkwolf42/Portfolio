@@ -1,16 +1,18 @@
 import Section from "./Section";
 import programming_computer from '../assets/programming_computer.json'
 import { DotLottieReact } from '@lottiefiles/dotlottie-react'
+import { useTranslation } from "react-i18next";
 
 export default function About() {
 
+    const {t} = useTranslation()
 
     return (
         <Section>
-            <h1 id="about">About</h1>
+            <h1 id="about">{t("about")}</h1>
             <div className='flex md:flex-row flex-col-reverse gap-20 mt-10 lg:mb-75 mb-20'>
                 <p className='flex flex-col flex-2 font-mono opacity-90'>
-                Hi and welcome to me portfolio page, my name is Mahmoud Benyoucef and I am an engenier in software devolopement, I am currently a student in my 4 year in Farhat Abas but I have a experiance that it makes me confendint I can help you make the software you disaer at a reasonable price.  
+                    {t("about_description")}
                 </p>  
                 <div className='flex-1 bg-indigo-800 lg:my-0 my-10 rounded-2xl flex justify-center items-center'>
                     <DotLottieReact

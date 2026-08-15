@@ -1,9 +1,11 @@
+import { useSearchParams } from "react-router-dom";
 import BgFog from "../components/BgFog";
 import useInView from "../hooks/UseInView";
 
 export default function Section({children}) {
     
     const [ref, isVisible] = useInView();   
+
 
     return (
         <section className="relative max-w-full overflow-x-clip">
