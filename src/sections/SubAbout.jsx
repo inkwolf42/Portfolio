@@ -58,7 +58,7 @@ export default function SubAbout() {
                     <p className="lg:text-xl md:text-sm text-center text-wrap h-10 w-3/4 text-xl font-extrabold uppercase opacity-50">
                         {t("exp")}
                     </p>
-                    <h3 className={`text-3xl font-extrabold word-fade-in text-center ${isVisible ? "is-word-visible" : ""}`}>
+                    <h3 className={`text-3xl font-extrabold word-fade-in max-w-2/3  text-center ${isVisible ? "is-word-visible" : ""}`}>
                         {currentWord}
                     </h3>
                 </div>
